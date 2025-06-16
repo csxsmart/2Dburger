@@ -362,4 +362,4 @@ if __name__ == '__main__':
         t += dt
     resultu = torch.cat(resultu, dim=1)
     resultv = torch.cat(resultv, dim=1)
-    torch.save(torch.stack((resultu, resultv), dim=2), '/home/LJL/CSX/ppnn-main/src/data5.9/2Dburgers0510.pt')
+    torch.save(torch.stack((resultu, resultv), dim=2), '/home/LJL/CSX/data5.9/2Dburgers0510.pt')
